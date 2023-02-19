@@ -19,3 +19,8 @@ body {
   width: 200px;
 }
 
+@media (max-width:375px) {
+   #cardImg{
+    width: 350px;
+   }
+}

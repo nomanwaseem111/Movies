@@ -31,8 +31,8 @@ const Cards = () => {
         loading ? <div className="w-full flex justify-center items-center mt-60"><ThreeDots height={40} color="white"/></div> : data.map((elem, index) => {
         return (
           <Link to={`/detail/${elem.id}`}>
-          <div className="card shadow-lg p-2 text-lg  mt-6 hover:-translate-y-3 transition-all duration-500 cursor-pointer" key={index}>
-            <img className="h-80" src={elem.image} />
+          <div  className="card shadow-lg p-2 text-lg  mt-6 hover:-translate-y-3 transition-all duration-500 cursor-pointer" key={index}>
+            <img  className="h-80" src={elem.image} />
             <h1 id="para" className="mt-2">
               <span  className="text-gray-500">Title: </span> {elem.title}
             </h1>
