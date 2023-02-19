@@ -10,7 +10,9 @@ const Addmovie = () => {
         title:"",
         year:"",
         description:"",
-        image:""
+        image:"",
+        rating:0,
+        rated:0
     
 })
  
@@ -27,6 +29,12 @@ const [loading,setLoading] = useState(false)
         icon:"success",
         buttons:false,
         timer:3000
+    })
+    setForm({
+      title:"",
+      year:"",
+      description:"",
+      image:""
     })
     setLoading(false)
 

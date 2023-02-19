@@ -3,6 +3,7 @@ import Cards from './components/Cards'
 import Header from './components/Header'
 import Addmovie from './components/Addmovie'
 import { Route, Routes } from 'react-router-dom'
+import Detail from './components/Detail'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Routes>
         <Route path='/' element={<Cards/>}></Route>
         <Route path='/addmovie' element={<Addmovie/>}></Route>
+        <Route path='/detail/:id' element={<Detail/>}></Route>
 
         </Routes>
         

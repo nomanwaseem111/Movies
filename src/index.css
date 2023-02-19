@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #000;
   color: #fff;
 }
 
-.card{
+.card {
   background-color: rgba(19, 19, 19);
   width: 230px;
 }
+
+#para {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 200px;
+}
+
